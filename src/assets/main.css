@@ -1,0 +1,113 @@
+/* src/assets/style.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #344e41;
+  color: #dad7cd;
+  display: flex;
+  justify-content: center;
+
+}
+
+.container {
+  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #dad7cd;
+
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #dad7cd;
+
+}
+
+.router-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border: 2px solid #333;
+  border-radius: 4px;
+}
+input{
+  font-size: 1.3rem;
+
+}
+
+.router-link:hover {
+  background-color: #333;
+  color: white;
+}
+
+input[type='text'],
+textarea {
+  width: 80%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  margin: 30px;
+
+}
+
+button {
+  background-color: #333;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  margin: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+select{
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.quiz-card {
+  background-color: #d52222;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  margin: 30px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: orange;
+  
+}
+
+a:hover {
+  color:black;
+  transition: 1s;
+}
+
